@@ -2,4 +2,4 @@
  * Created by russjr on 10/9/13.
  */
 
-alert("This is Javascript")
+alert("This is my js file");
