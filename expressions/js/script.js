@@ -78,3 +78,9 @@ var secPart = 2540;
 //518-361-2540
 var phoneNo = "(" + String(areaCode) + ")" + String(firstPart) + "-" + String(secPart);
 console.log(phoneNo)
+
+//Expressions - Assignment Operators
+
+var a = 3;
+a + 4;
+console.log(a);
