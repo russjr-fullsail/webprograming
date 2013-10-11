@@ -71,3 +71,9 @@ console.log(result);
 var stringVar = "6";
 var result = 7 + Number(stringVar);
 console.log(result);
+
+var areaCode = 518;
+var firstPart = 361;
+var secPart = 2540;
+var phoneNo = areaCode + firstPart + secPart;
+console.log(phoneNo)
