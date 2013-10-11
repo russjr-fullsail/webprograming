@@ -13,3 +13,13 @@ console.log(b);
 var yearBorn = 1974
 var age = 2013 - yearBorn
 console.log(age)
+
+//Expressions - Arithmetic Operators
+
+//area of triangle is half the width times the height
+
+var width = 4;
+var height = 5;
+
+var area = width * height;
+console.log(area);
