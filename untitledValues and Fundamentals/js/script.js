@@ -9,3 +9,7 @@ console.log(yearBorn);
 
 alert(yearBorn);
 console.log(yearBorn);
+
+//Variables in Action
+
+var age;
