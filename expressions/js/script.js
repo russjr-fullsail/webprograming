@@ -65,3 +65,9 @@ var b = 7;
 
 var result = a + b;
 console.log(result);
+
+//Expressions - Casting
+
+var stringVar = "6";
+var result = 7 + stringVar;
+console.log(result);
