@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f9a4b2c2-31ad-4bb5-94ff-414cae57346b" name="Default" comment="" />
-    <ignored path="Industry-specific.iws" />
+    <list default="true" id="38030ea1-4e79-42f9-9073-6c6c9c34cb6d" name="Default" comment="" />
+    <ignored path="Wacky.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,14 +19,14 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="Industry-specific" />
+    <favorites_list name="Wacky" />
   </component>
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="31" selection-start="98" selection-end="98" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="225">
+            <state line="4" column="31" selection-start="86" selection-end="86" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="225">
               <folding />
             </state>
           </provider>
@@ -35,10 +35,8 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="29" selection-start="92" selection-end="92" vertical-scroll-proportion="0.02035278" vertical-offset="0" max-vertical-offset="737">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state line="13" column="112" selection-start="737" selection-end="737" vertical-scroll-proportion="0.26933703" vertical-offset="0" max-vertical-offset="724">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -59,8 +57,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="49" />
-    <option name="y" value="122" />
+    <option name="x" value="35" />
+    <option name="y" value="357" />
     <option name="width" value="1400" />
     <option name="height" value="860" />
   </component>
@@ -90,32 +88,31 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Industry-specific" />
+              <option name="myItemId" value="Wacky" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Industry-specific" />
+              <option name="myItemId" value="Wacky" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Industry-specific" />
+              <option name="myItemId" value="Wacky" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Industry-specific" />
+              <option name="myItemId" value="Wacky" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Industry-specific" />
+              <option name="myItemId" value="Wacky" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -125,6 +122,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -166,14 +164,14 @@
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f9a4b2c2-31ad-4bb5-94ff-414cae57346b" name="Default" comment="" />
-      <created>1381463045249</created>
-      <updated>1381463045249</updated>
+      <changelist id="38030ea1-4e79-42f9-9073-6c6c9c34cb6d" name="Default" comment="" />
+      <created>1381464637324</created>
+      <updated>1381464637324</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="49" y="122" width="1400" height="860" extended-state="0" />
+    <frame x="35" y="357" width="1400" height="860" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -204,22 +202,22 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="31" selection-start="98" selection-end="98" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="225">
+        <state line="4" column="31" selection-start="86" selection-end="86" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="225">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="29" selection-start="92" selection-end="92" vertical-scroll-proportion="0.02035278" vertical-offset="0" max-vertical-offset="737">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state line="13" column="112" selection-start="737" selection-end="737" vertical-scroll-proportion="0.26933703" vertical-offset="0" max-vertical-offset="724">
+          <folding />
         </state>
       </provider>
     </entry>

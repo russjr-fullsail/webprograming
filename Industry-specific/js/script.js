@@ -1,5 +1,5 @@
 //Russell Chatham Jr. 10/10/13 Expressions - Industry-specific
-//Head Loss
+//Head Loss for flow of water
 
 var g = 2; //g= Gravitational Constant
 var d = 5; //d= Pipe Diameter
