@@ -6,3 +6,6 @@
 var yearBorn = 1974;
 
 console.log(yearBorn);
+
+alert(yearBorn);
+console.log(yearBorn);
