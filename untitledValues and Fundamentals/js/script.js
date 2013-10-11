@@ -13,3 +13,6 @@ console.log(yearBorn);
 //Variables in Action
 
 var age;
+age = 39;
+var yearOfBirth = 1974
+console.log(age);
