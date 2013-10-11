@@ -4,4 +4,5 @@
 //Expressions
 
 var a = 2;
-control.log(a);
+a + 3;
+console.log(a);
