@@ -23,6 +23,10 @@ var isStudent = false;
 
 var firstName = "Russell";
 
-var phrase = "I don\'t know";
+var phrase = "I don\'t know \n You\'ll have to speak with the professor";
 
 console.log(phrase)
+
+var muppetNames = ["Kermit", "Miss Piggy", "Gonzo"];
+
+console.log(muppetNames[0]);
