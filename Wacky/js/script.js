@@ -10,5 +10,8 @@ var lastName = "Chatham"; // Last Name
 var name = "This is Our Family Last Name is"; // Name of Field
 var nameOfFamilyMembers = "Here is my Family Members Names" + " " + husband +" "+ wifeName + " " + firstChild + " " + secondChild; //List of Names
 var children = firstChild + " " + "and" + " " + secondChild; // Children's Names
+var hobbies = "What are our Hobbies?"
+var whatHobbies = ("Jeeps, Tractors, Swimming, Computers and Legos, just to name a few!")
 
-console.log(age + "\n" + spouseAge + "\n" + nameOfFamilyMembers + "\n" + name + " " + lastName + "\n" + children);
+alert(husband)
+console.log(age + "\n" + spouseAge + "\n" + nameOfFamilyMembers + "\n" + name + " " + lastName + "\n" + children + "\n" +hobbies + "\n" + whatHobbies);
