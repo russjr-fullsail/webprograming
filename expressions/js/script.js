@@ -51,3 +51,17 @@ var orangeBin = [234, 576, 883];
 
 var total = orangeBin[0] + orangeBin[1] + orangeBin[2];
 console.log(total)
+
+//Expressions - Concatenating
+
+var firstName = "Russell";
+var lastName = "Chatham";
+var fullName = firstName + " " + lastName;
+
+console.log(fullName)
+
+var a = "6";
+var b = "7";
+
+var result = a + b;
+console.log(result);
