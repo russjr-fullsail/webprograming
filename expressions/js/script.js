@@ -75,5 +75,6 @@ console.log(result);
 var areaCode = 518;
 var firstPart = 361;
 var secPart = 2540;
-var phoneNo = areaCode + firstPart + secPart;
+//518-361-2540
+var phoneNo = "(" + String(areaCode) + ")" + String(firstPart) + "-" + String(secPart);
 console.log(phoneNo)
