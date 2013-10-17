@@ -23,3 +23,24 @@ if(temp ==75){
     goToTheBeach();
 }
 
+//Nesting Conditionals
+
+if(sunny){
+    goToTheBeach();
+}else{
+    goToTheMovies();
+}
+
+if(warmWater){
+    wearNewSuit();
+}
+
+if(sunny){
+    goToTheBeach();
+
+    if(warmWater){
+        wearNewSuit();
+    }
+}else{
+    goToTheMovies();
+}
