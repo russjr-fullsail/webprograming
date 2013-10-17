@@ -7,3 +7,8 @@ if(sunny){
     goToTheBeach();
 }
 
+if(sunny){
+    goToTheBeach();
+}else{
+    goToTheMovies();
+}
