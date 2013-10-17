@@ -112,7 +112,7 @@ if(kidHeight > minHeight){
 }else{
     //sorry you have some growing to do
     console.log("Sorry kid, you've got some growing to do first!");
-}**/
+}
 
 //Logical Operators
 
@@ -125,4 +125,15 @@ if(iPhonePrice < budget || wonLottery === true){
     console.log("We can buy the phone!");
 }else{
     console.log("No phone for you!!");
+}**/
+
+//Ternary Operators
+
+var gpa = 48;
+
+//if the gpa is over the min 2.0 score, the student can graduate
+if(gpa > 2.0) {
+    console.log("You can graduate");
+}else{
+    console.log("GPA is too low!");
 }
