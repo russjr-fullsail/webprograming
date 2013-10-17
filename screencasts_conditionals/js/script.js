@@ -12,3 +12,14 @@ if(sunny){
 }else{
     goToTheMovies();
 }
+
+//Logic Concepts
+
+if(temp >70){
+    goToTheBeach();
+}
+
+if(temp ==75){
+    goToTheBeach();
+}
+
