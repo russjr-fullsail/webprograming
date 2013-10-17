@@ -113,3 +113,15 @@ if(kidHeight > minHeight){
     //sorry you have some growing to do
     console.log("Sorry kid, you've got some growing to do first!");
 }
+
+//Logical Operators
+
+var budget =300;
+var iPhonePrice = 199.99;
+var payCheck = 200;
+
+if(iPhonePrice < budget){
+    console.log("We can buy the phone!");
+}else{
+    console.log("No phone for you!!");
+}
