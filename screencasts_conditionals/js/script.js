@@ -93,7 +93,7 @@ if(kidHeight > minHeight){
 }else{
     //code performed if condition is false
     console.log("Sorry kid, you've got some growing to do first!");
-}**/
+}
 
 //Else if
 
@@ -112,7 +112,7 @@ if(kidHeight > minHeight){
 }else{
     //sorry you have some growing to do
     console.log("Sorry kid, you've got some growing to do first!");
-}
+}**/
 
 //Logical Operators
 
@@ -120,7 +120,8 @@ var budget =300;
 var iPhonePrice = 199.99;
 var payCheck = 200;
 
-if(iPhonePrice < budget){
+//if the price of the phone is less our budget AND our paycheck is over than 300
+if(iPhonePrice < budget && payCheck > 300){
     console.log("We can buy the phone!");
 }else{
     console.log("No phone for you!!");
