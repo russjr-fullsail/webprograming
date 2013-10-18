@@ -3,11 +3,11 @@
 //Hours available to run my own business
 
 //hours
-var time = 8;
+var time = 60;
 var hoursInDay = 24;
 var daysAvailable = 7;
-var workHours = 4;
-var workDays = 5;
+var workHours = 5;
+var workDays = 4;
 var sleep = 4;
 
 //calculate hours I can spend building my own business
