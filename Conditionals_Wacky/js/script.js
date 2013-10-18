@@ -14,7 +14,7 @@ var checkPlusBankAccount = parseInt(bankAccountTotal) + parseInt(checkUntilJeep)
 //Using conditionals we can determine if a new Jeep is possible in the amount of time given
 if (checkPlusBankAccount > jeepCost) {
     console.log("You can afford to buy the new Jeep with" + monthsUntilIBuy + " months extra saved, that you can use to buy upgrades!")
-}else {
+}else{
     //else tells the user it's better to wait or save more money
-    console.log("Unfortunately, you will only have" + (checkPlusBankAccount + monthsUntilIBuy), "saved towards the new jeep");
+    console.log("Sorry, you do not have enough money to buy the new jeep.")
 }
