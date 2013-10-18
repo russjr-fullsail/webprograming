@@ -1,21 +1,20 @@
 //Russell Chatham Jr. 10/17/13 Activity: Conditionals Worksheet
 
-//Celsius to Fahrenheit converter
-/*var userInput = prompt ("Please choose C or F")
+//Last chance for gas
 
-var userInput1 =("c");
-var userInput2 =("f");
-var f =32;
-c=5/9*(f-32);
-var c =100;
-f= c * 9/5 + 32;
-if(userInput1 = c){
+/*var eff = 8;
+var read = .75;
+var tank = 5;
+var distance = 200;
+//Calculate how much gas is left
+if(tank / read * eff > distance){
+//If gas tank is lower than distance left stop for gas
+console.log("Yes, you can make it without stopping for gas!")
 }else{
-    (userInput2 = f)
+//if more gas is need for distance to travel than stop for gas
+console.log("You only have", "" + tank, "of gas left in your tank, better get gas now while you can");
 }
-console.log("The temperature is", c + "", "degrees Celsius");
-console.log("The temperature is", f + "", "degrees Fahrenheit");
-*/
+
 //Check the Login
 
 /*var userInput = prompt ("Enter username");
