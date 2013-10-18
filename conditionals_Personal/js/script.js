@@ -5,7 +5,7 @@
 var payCheck = 387;
 var weeksOfPay = 4;
 var checking = 500;
-var newTires = 3200;
+var newTires = 1200;
 
 if(payCheck + checking > newTires){
     console.log("Yes I can buy new tires!")
