@@ -6,3 +6,7 @@ var jeepCost = 32000;
 var bankAccountTotal = prompt("Please enter total in your bank account:\n(Please enter as dollar value.)");
 var monthsUntilIBuy = prompt("Please enter how many months before you buy new Jeep:");
 var monthlyIncome = prompt("Please enter your monthly income :\n(Please enter as dollar value.)");
+
+//variables to come up with results
+var checkUntilJeep = monthsUntilIBuy * monthlyIncome;
+var checkPlusBankAccount = parseInt(bankAccountTotal) + parseInt(checkUntilJeep);
