@@ -17,7 +17,7 @@ console.log("You only have", "" + tank, "of gas left in your tank, better get ga
 
 //Check the Login
 
-/*var userInput = prompt ("Enter username");
+var userInput = prompt ("Enter username");
 var userInput2 = prompt ("Enter password");
 if(userInput == "Russ" && userInput2 == "webmaster"){
 console.log ("Welcome", userInput);
@@ -32,16 +32,18 @@ if(userInput2 != "webmaster"){
 
 //movie ticket prices ar $12.00 but if you are over 55 or under 10 you get discount price of $7.00  If customer is seeing movie between 3 and 5 also get discounted ticket
 
-var age =31;
-var price;
-var time =3;
+var age = 9;
+var senDiscount = 55;
+var kidDiscount = 10;
+var timeDiscount = 3 && 5;
+var movieTime = 3;
+var disPrice = 7;
+var fullPrice = 12;
 
-if(price =(age >10 && age <55 || age <10 && age >55) ? "The ticket price is $12.00" : "The ticket price is $7.00"){
-console.log(price);
+if(age < kidDiscount || age > senDiscount || movieTime == timeDiscount){
+    console.log("The ticket price is", + "" + (disPrice));
 }else{
-    (time == 3); "The ticket price is $7.00"
-    console.log(time)
-
+    console.log("The ticket price is", + "" + (fullPrice));
 }
 
 
