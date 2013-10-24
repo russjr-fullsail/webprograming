@@ -23,3 +23,10 @@ if(dollars > 1000){
 }else if(dollars >500 && dollars < 999){
     console.log("I need to try harder if I want to make this business work")
 }
+
+//Same as above but in ternary
+
+var adsDesigned = prompt("How many ads were designed this month");
+var dollars = adsDesigned * 125;
+var total = dollars >1000 ? "I made $" + dollars + " I had a great month design ads" : "I made $" + dollars + " I need to try harder if I want to make this business work"
+console.log(total);
