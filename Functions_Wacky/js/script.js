@@ -5,8 +5,8 @@
 var rti = calcTravel(35, 119, 30) //parameter1 is distance up ramp, parameter2 is wheelbase parameter3 is angle
 
 function calcTravel(dist, wheelBase, angle){
-
-    var rti = wheelBase/dist * angle/1000;
+    var degAng = angle / 360;
+    var rti = dist/wheelBase * 100/degAng;
     return rti
     //Return RTI Score
 }
