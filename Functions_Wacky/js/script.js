@@ -2,7 +2,7 @@
 
 //Ramp Travel Index Score or RTI Score
 
-var rti = calcTravel(42, 119)
+var rti = calcTravel(35, 119)
 
 function calcTravel(dist, wheelBase){
 
@@ -10,6 +10,6 @@ function calcTravel(dist, wheelBase){
     return rti
     //Return RTI Score
 }
-console.log("This is your Ramp Travel Index " + rti + " score")
+console.log("This is your Ramp Travel Index " + rti + " score");
 
 
