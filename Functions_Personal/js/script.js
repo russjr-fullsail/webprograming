@@ -40,5 +40,5 @@ function calcArea (width, length){
     return area;
 }
 
-console.log(totalSqOfRooms)
+console.log(totalSqOfRooms + " is the total sq. ft. of the 4 rooms")
 
