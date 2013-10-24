@@ -2,11 +2,11 @@
 
 //Ramp Travel Index Score or RTI Score
 
-var rti = calcTravel(35, 119) //parameter1 is distance up ramp, parameter2 is wheelbase
+var rti = calcTravel(35, 119, 30) //parameter1 is distance up ramp, parameter2 is wheelbase parameter3 is angle
 
-function calcTravel(dist, wheelBase){
+function calcTravel(dist, wheelBase, angle){
 
-    var rti = dist/wheelBase * 1000;
+    var rti = wheelBase/dist * angle/1000;
     return rti
     //Return RTI Score
 }
