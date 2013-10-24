@@ -46,3 +46,26 @@ function calcArea(){
 
 calcArea();
 console.log(width);
+
+//Arguments and Parameters
+
+/*function (argument1, argument2);
+
+function funcName(parameter1, parameter2){
+    //code the function runs
+}
+
+calcArea(30,20);
+function calcArea(w, h){
+    var area = w * h;
+    console.log(area);
+}*/
+
+function dogYears(){
+    var age = 4;
+    var dogYears = age * 7;
+    console.log("Sparky is" + dogYears + " years old");
+}
+dogYears();
+dogYears();
+
