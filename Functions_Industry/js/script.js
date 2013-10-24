@@ -7,16 +7,19 @@
 
     var amountCharged = 125;
     //how many ads were designed * amount charged
+    var dollars = adsDesigned * amountCharged
 
-function adsSold(adsDesigned, amountCharged){
-    var dollars = adsDesigned * amountCharged;
-return dollars;
+function adsSold (adsDesigned, amountCharged){
+    var total = adsDesigned * amountCharged;
+    return total
+
 }
 
-console.log("I created " + adsDesigned + " this month and made a total of $" + amountCharged);
+console.log("I created " + adsDesigned + " this month and made a total of $" + dollars);
 
-if(amountCharged > 1000){
-    console.log("I had a great month designing ads");
-}else if(amountCharged >500 && amountCharged < 999){
-    console.log("I need to try harder if I want to make this business work");
+
+if(dollars > 1000){
+    console.log("I had a great month designing ads")
+}else if(dollars >500 && dollars < 999){
+    console.log("I need to try harder if I want to make this business work")
 }
