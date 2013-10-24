@@ -35,3 +35,5 @@ var totalRoom4 = calcArea(widthRoom4, lengthRoom4);
 var totalAreaRooms = totalRoom1 + totalRoom2 + totalRoom3 + totalRoom4;
 //set the function
 
+function calcArea (width, length){
+    
