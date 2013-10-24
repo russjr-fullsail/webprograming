@@ -2,13 +2,14 @@
 
 //Ramp Travel Index Score or RTI Score
 
+var rti = calcTravel(42, 119)
+
 function calcTravel(dist, wheelBase){
 
-    var dist = 42; //dist = distance traveled up the ramp
-    var wheelBase= 119; //wheelBase = wheelbase of vehicle
-    var r; //r = calculated ramp travel index
-    return r
+    var rti = dist/wheelBase * 1000;
+    return rti
+    //Return RTI Score
 }
-console.log("This is your Ramp Travel Index " + dist / wheelBase * 1000, + "score")
+console.log("This is your Ramp Travel Index " + rti + " score")
 
 
