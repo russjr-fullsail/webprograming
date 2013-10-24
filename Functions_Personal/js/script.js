@@ -32,8 +32,13 @@ var lengthRoom4 = prompt ("What is the length of Room 4");
 //enter length of room 4
 var totalRoom4 = calcArea(widthRoom4, lengthRoom4);
 //total area of room 4
-var totalAreaRooms = totalRoom1 + totalRoom2 + totalRoom3 + totalRoom4;
+var totalSqOfRooms = totalRoom1 + totalRoom2 + totalRoom3 + totalRoom4;
 //set the function
 
 function calcArea (width, length){
-    
+    var area = width * length;
+    return area;
+}
+
+console.log(totalSqOfRooms)
+
