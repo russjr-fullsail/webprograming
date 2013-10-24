@@ -2,7 +2,7 @@
 
 //Basic Function Structure
 
-function functionName(){
+/*function functionName(){
     //code the function runs
 }
 
@@ -78,7 +78,7 @@ function calcArea(w, h){
     return area; //function spitting the info out
 }
 console.log(total);
-*/
+
 
 //Function vs Procedure
 
@@ -92,5 +92,26 @@ function calcArea(width, height){
     var width * height;
     console.log(area); //no return
 }
+
+//Anonymous Functions
+
+
+var functionName = function(){
+    //code to run
+}
+
+functionName();
+*/
+
+var calcArea = function(width, height){ //defining
+    //codethat function runs
+    var area = width * height;
+    return area;
+}
+
+var a = calcArea(20,30); //invoking
+console.log(a);
+
+
 
 
