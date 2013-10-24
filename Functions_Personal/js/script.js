@@ -9,3 +9,12 @@ var lengthRoom1 = prompt ("What is the length of Room 1");
 var totalRoom1 = calcArea(widthRoom1, lengthRoom1);
 //total area of room 1
 
+//room 2 width and length
+var widthRoom2 = prompt ("What is the width of Room 2");
+//enter width of room 2
+var lengthRoom2 = prompt ("What is the length of Room 2");
+//enter length of room 2
+var totalRoom2 = calcArea(widthRoom2, lengthRoom2);
+//total area of room 2
+
+
