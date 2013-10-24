@@ -11,3 +11,13 @@ function circleCircumference(pi, dia){
 }
     console.log("The cicumference of the circle is " + radius)
 
+//Stung
+
+var killStings = calculation(38, 8.666666667)
+
+//weight of dog + stings per
+function calculation(dogwieght, stings){
+    var stingTotal = dogwieght * stings;
+    return stingTotal
+}
+console.log("it takes " + killStings + " to kill a dog");
